@@ -45,19 +45,19 @@ Blue Heaven Cosmetics Private Limited is a Non-govt company, incorporated on 13 
 ## Screenshots
 
 ### Home Page
-  ![Homepage](./screenshots/homepage.png)
+  ![Homepage](https://miro.medium.com/max/875/1*3FH9zHmDAnMGWZyBiAIIpA.png)
 ### Dropdown
-  ![dropdown](./screenshots/dropdown.png)
+  ![dropdown](https://miro.medium.com/max/1400/1*JRFSLSt0k0X52ZY5iCYpRA.png)
 ### Hover feature
-  ![hover](./screenshots/hovering.png)
+  ![hover](https://miro.medium.com/max/1400/1*SjTIeIz-AqRCUfropHuVAQ.png)
 ### Footer
-  ![footer](./screenshots/footer.png)
-### Signin Page
-  ![Signinpage](./screenshots/signin.png)
+  ![footer](https://miro.medium.com/max/1400/1*VdmbM18ARLUt8fkPoqNTuA.png)
 ### Products Page
-  ![Products](./screenshots/products.png)
-  ### Makeup Page
-  ![Makeup](./screenshots/makeuppage.png)
+  ![Products](https://miro.medium.com/max/875/1*O0p6cmRCDvIo5O43haGxJg.png)
+### Makeup Page
+  ![Makeup](https://miro.medium.com/max/875/1*NzMYzRdjcUiu3moM78JQsQ.png)
+### Sign In Page
+  ![Signin](https://miro.medium.com/max/875/1*T0OmQ706rGW2HawBPp8ZMA.png)
 
 ## Challenges
 
