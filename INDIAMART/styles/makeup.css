@@ -1,0 +1,185 @@
+/* body{
+    overflow-x: hidden;
+} */
+
+#makeuppage{
+    /* border:1px solid red; */
+    width:80%;
+    margin:auto;
+    justify-content: center;
+}
+
+
+#item1{
+
+display: flex;
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.makeupimage{
+
+    width:400px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding:6px;
+    box-sizing: border-box;
+
+}
+
+
+
+.makeupimage .img{
+
+    border: 1px #efefef solid;
+    height:350px;
+    width:350px;
+  
+}
+.makeupimage .a{
+margin-left:10px;
+color:#068076;
+}
+.span{
+    margin-bottom: 10px;
+}
+
+.makeupimage .a:hover{
+
+text-decoration: underline;
+}
+
+.makeupimage .fa-clipboard-list{
+    color:#068076;
+}
+
+
+.makeup{
+
+    width:65%;
+    box-sizing: border-box;
+    
+}
+
+
+.makeup .h2,.ain,.ul{
+
+margin-left:20px;
+text-align: left;
+
+
+}
+.makeup .yesbutton{
+
+background-color: teal;
+color:white;
+padding:15px;
+
+border-radius:5px;
+display: block;
+margin: auto;
+margin-top: 30px;
+
+width:35%;
+transform:scale(1.06)
+
+}
+
+
+
+.ain{
+color: #2e3192;
+text-decoration: underline;
+
+}
+.ain:hover,.h2:hover{
+
+color: red;
+}
+
+#item2{
+    display: flex;
+    margin-top:40px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#item3{
+    display: flex;
+    margin-top:40px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#item4{
+    display: flex;
+    margin-top:40px;  
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.yesbutton:hover{
+    transform: scale(1.04);
+}
+.p{
+margin-bottom: 4px;
+}
+
+.heading{
+    margin-left:150px;
+}
+
+.yesbutton1{
+
+    background-color: teal;
+    color:white;
+    padding:15px;
+    
+    border-radius:5px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    
+    width:35%;
+    transform:scale(1.06)
+    
+ }
+ .yesbutton1:hover{
+    transform: scale(1.04);
+}
+
+.yesbutton2{
+
+    background-color: teal;
+    color:white;
+    padding:15px;
+    
+    border-radius:5px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    
+    width:35%;
+    transform:scale(1.06)
+    
+ }
+ .yesbutton2:hover{
+    transform: scale(1.04);
+}
+
+
+.yesbutton3{
+
+    background-color: teal;
+    color:white;
+    padding:15px;
+    
+    border-radius:5px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    
+    width:35%;
+    transform:scale(1.06)
+    
+ }
+ .yesbutton3:hover{
+    transform: scale(1.04);
+}

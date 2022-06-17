@@ -1,0 +1,214 @@
+
+#bigbox {
+
+    justify-content: center;
+    font-family: arial;
+    width: 80%;
+    margin: auto;
+    /* background-color: white; */
+  
+}
+
+#bigbox img {
+    display: block;
+    margin-top: 30px;
+    height: 200px;
+    width: 200px;
+    border: 1px #efefef solid;
+}
+
+#bigbox img:hover {
+
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transform: scale(1.05);
+    cursor: pointer;
+
+}
+
+#bigbox #h2,
+#p,
+#a {
+    display: block;
+    
+
+}
+
+#bigbox #a {
+    color: #2e3192;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+#bigbox #a:hover {
+    text-decoration: underline;
+    color: #2e3192;
+}
+
+#bigbox #p {
+    letter-spacing: .3px;
+    font-size: 16px;
+    color: #777;
+    display: block;
+}
+
+
+
+#bigbox #h2 {
+    color: #2e3192;
+}
+
+#makeupdata {
+    display: flex;
+    gap: 35px;
+}
+
+#makeup {
+
+    margin-top: 30px;
+    box-shadow: 0 0 13px 0 rgb(0 0 0 / 10%);
+}
+
+
+#lipstick {
+
+    margin-top: 30px;
+    box-shadow: 0 0 13px 0 rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+}
+
+#lipstickdata {
+    display: flex;
+    gap: 35px;
+   
+}
+
+
+
+
+
+#lipsproducts {
+
+
+    margin-top: 30px;
+    box-shadow: 0 0 13px 0 rgb(0 0 0 / 10%);
+
+}
+
+#lipsdata {
+    display: flex;
+    gap: 50px;
+}
+
+
+
+
+#bleach {
+
+
+    margin-top: 30px;
+    box-shadow: 0 0 13px 0 rgb(0 0 0 / 10%);
+
+}
+
+#bleachdata {
+    display: flex;
+    gap: 50px;
+}
+
+
+
+#scrubs {
+
+
+    margin-top: 30px;
+    padding: 20px;
+    box-shadow: 0 0 13px 0 rgb(0 0 0 / 10%);
+
+}
+
+#scrubdata {
+    display: flex;
+    gap: 50px;
+}
+
+
+
+#eye {
+
+    margin-top: 30px;
+    box-shadow: 0 0 13px 0 rgb(0 0 0 / 10%);
+}
+
+#eyedata {
+    display: flex;
+    gap: 50px;
+}
+
+
+#lipcare{
+
+    margin-top: 30px;
+    padding: 20px;
+    box-shadow: 0 0 13px 0 rgb(0 0 0 / 10%);
+
+}
+
+#lipcaredata {
+    display: flex;
+    gap: 50px;
+}
+
+
+
+
+#button_bh {
+    margin-top:30px;
+    border: 1px solid #2e3192;
+    border-radius: 3px;
+    width: 160px;
+    height: 40px;
+    display: block;
+    margin-left: 80%;
+
+    
+  
+    background: linear-gradient(to right, #2e3192 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+  }
+  
+  #button_bh:hover {
+    background-position: left bottom;
+    color: white;
+ 
+  }
+  
+  .text {
+    text-align: center;
+    font-size: 16px;
+    color:#2e3192 ;
+    transition: all .6s ease-out;
+    display: block;
+  }
+  
+  .text:hover {
+    color: white;  
+  }
+
+
+
+
+#producttitle{
+    display: block;
+    margin-top:20px;
+    color: #111;
+    font-size: 16px;
+    line-height: 1.13;
+    font-weight: 400;
+}
+
+#producttitle :hover{
+    font-weight: bold;
+}

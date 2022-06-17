@@ -1,0 +1,54 @@
+#footer1 {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    justify-content: space-between;
+    background-color: #eeeeee;
+      
+}
+#footer2 {
+    justify-content: left;
+    color: #5970bc;
+    font-weight: 42px;
+    margin-left: 100px;
+}
+#footer3 {
+    display: flex;
+    justify-content: right;
+    margin-right: 100px;
+}
+#fpart1, #fpart2 {
+    display: flex
+}
+
+
+#fpart1 >div >img, #fpart2 >div >img {
+    width: 25px;
+    height: 25px;
+    margin-top: -5px;
+    padding: 2px;
+}
+
+#fstart {
+    
+    width: 90%;
+    /* margin: auto; */
+    display: flex;
+    padding: 20px;
+    /* gap: 10px; */
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right:80px;
+    margin-top: -20px;
+    line-height: 8px;
+}
+#fstart > div > p {
+    font-size: 14px;
+    font-family: arial;
+    color: gray;
+}
+#fstart > div:last-child{
+    margin-left: -30px;
+}

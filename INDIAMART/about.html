@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="./styles/about.css">
+    <link rel="stylesheet" href="./styles/navbar2.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+
+</head>
+<body>
+    <div id="home-nav"></div>
+
+    <div id="about">
+     <div id="abt1">
+        <h1>Blue Heaven Cosmetics Private Limited</h1>
+        <p>To meet the ever increasing market requirements, we have made a continuous improvement in the supply of various genuine trusted products.</p>
+     </div>
+     <div>
+        <h3>Factsheet</h3>
+        <h5>Basic Information</h5>
+        <table class="table table-hover">
+            <tr>
+                <td>Nature of Business</td>
+                <td>Manufacturer</td>
+            </tr>
+            <tr>
+                <td>Company CEO</td>
+                <td>Varinder</td>
+            </tr>
+            <tr>
+                <td>total Number of Employees</td>
+                <td>11 to 25 People</td>
+            </tr>
+            <tr>
+                <td>Year of Establishment</td>
+                <td>1972</td>
+            </tr>
+            <tr>
+                <td>Legal Status of Firm</td>
+                <td>Limited Company (Ltd./Pvt.Ltd.)</td>
+            </tr>
+            <tr>
+                <td>Annual Turnover </td>
+                <td>Rs. 50 - 100 Crore</td>
+            </tr>
+        </table>
+        <hr>
+        <h5>Statutory Profile</h5>
+             <table class="table table-hover">
+                     <tr>
+                       <td>GST No:</td>
+                       <td>07AACCB1155C1ZB</td>
+                     </tr>
+                      <tr>
+                        <td>CIN No:</td>
+                        <td>U24246DL2002PTC118034</td>
+                      </tr>
+             </table><hr>
+     </div>
+     <div>
+        <h3>Quality</h3>
+        <p>ISO 9001:2000 Company</p>
+     </div>
+
+     <div>
+        <h3>About Us</h3>
+        <p>Blue Heaven Cosmetics was started in 1974 by two young brothers, company MD’s Mr.Charanjit Singh and Mr. Gurnam Singh with big dreams and ambitions.</p>
+        <p>By virtue of their determination and commitment Blue Heaven Cosmetics has been able to experience such an eventful journey revolutionizing the Indian decorative cosmetics industry.</p>
+        <p>Beauty cosmetics is an ever changing world. The company’s product development departments therefore have been working systematically with the evolution of trendy color patterns ,themes, etc.Not only has Blue Heaven kept pace with the fashion trends but has also acted as benchmark and trendsetter in the beauty cosmetic field.</p>
+        <p>With almost 4 decades of persistent presence in the industry BHC has carved a niche for itself making it one of the trustworthy and reliable brands. The brand continues to re invent itself satisfying millions of customers</p>
+     </div>
+    </div>
+
+    <div id="home-footer"></div>
+</body>
+</html>
+<!-- navbar -->
+
+<script src="https://kit.fontawesome.com/4c42ee9e21.js" crossorigin="anonymous"></script>
+
+<script type="module">
+
+import { navbar , footer  } from "../components/allPart.js";
+// console.log(navbar)
+document.querySelector('#home-nav').innerHTML = navbar();
+
+document.querySelector('#home-footer').innerHTML = footer();
+
+</script>

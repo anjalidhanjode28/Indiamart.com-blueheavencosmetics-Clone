@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="./styles/navbar2.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <style>
+       
+        #contactUs {
+            width: 80%;
+            height:500px;
+            margin: auto;
+            justify-content: center;
+            display: flex;
+            gap: 50px;
+            
+        }
+        #contact {
+            margin-left: 10px;
+        }
+        #required > input {
+          width: 450px;
+          height: 100px;
+          border: 1px solid grey;
+          
+        }
+        #bt > button{
+            height: 40px;
+            border-radius: 5px;
+            border: 1px solid #00a699;
+            background-color: #00a699;
+            margin: 15px 180px;
+            color: white;
+        }
+        #reach {
+            font-size: 14px;
+        }
+        #reach > p> i{
+            color: grey;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="home-nav"></div>
+
+    <div id="contactUs">
+    <div id="contact">
+        <p>Contact Us for more Details</p>
+        <div id="required">
+            <h3>Requirement Details</h3>
+            <input type="text" placeholder="Additional details about your requirement">
+        </div>
+        <div id="bt"><button>Submit Requirement</button></div>
+    </div>
+
+    <div id="reach">
+        <h3>Reach Us</h3>
+        <p><i class="fa-solid fa-location-dot"></i> C - 158, Narina Industrial Area, Phase - 1, New Delhi-110028, Delhi, India</i></p>
+        <a href="#"><i class="fa-solid fa-diamond-turn-right"></i>Get Direction</a>
+
+        <p><i class="fa-solid fa-user-large"></i>Varinder (Managing Director)</p>
+        <p><i class="fa-solid fa-phone"></i>Call 09899654202</p>
+
+    </div>
+</div>
+
+<div id="home-footer"></div>
+</body>
+</html>
+<script src="https://kit.fontawesome.com/4c42ee9e21.js" crossorigin="anonymous"></script>
+
+<script type="module">
+
+import { navbar , footer  } from "../components/allPart.js";
+// console.log(navbar)
+document.querySelector('#home-nav').innerHTML = navbar();
+
+document.querySelector('#home-footer').innerHTML = footer();
+
+</script>

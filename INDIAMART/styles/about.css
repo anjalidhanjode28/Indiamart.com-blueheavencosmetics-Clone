@@ -1,0 +1,17 @@
+#about {
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    padding-left: 20px;
+    font-family: arial;
+}
+table{
+    line-height: 25px;
+    font-size: 14px;
+    /* border-left: 1px solid grey; */
+}
+
+hr {
+    border-bottom: 2px solid grey;
+    margin-right: 20px;
+}

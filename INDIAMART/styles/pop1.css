@@ -1,0 +1,283 @@
+
+        #cp_containerdiv-1
+        {
+            width: 90% !important;
+            margin: auto !important;
+            display: none;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px !important;
+        }
+          
+
+        #cp_containerdiv-2
+        {
+            width: 100% !important;
+            margin: auto !important;
+            display: none;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px !important;
+        }
+
+
+
+
+        #cp_main_container
+        {
+            display: flex;
+        }
+        .cp_cross
+        {
+            float: right;
+            font-size: 32px;
+            color: grey;
+            font-weight: bold;
+            border: none;
+            background: none;
+            outline: none;
+        }
+        .cp_cross-1
+        {
+            float: right;
+            font-size: 32px;
+            color: grey;
+            font-weight: bold;
+            border: none;
+            background: none;
+            outline: none;
+        }
+        .cp_cross:hover,
+        .cp_cross:focus
+        {
+            color: #000;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        #cp_containerdiv-11
+        {
+            width: 30%;
+            padding-left:10px ;
+            box-sizing: border-box;
+        }
+        #cp_containerdiv-12
+        {
+            width: 80%;   
+            padding-bottom: 15px;
+        }
+        #cp_containerdiv-12 > *
+        {
+            margin: 15px;
+            margin-left: 25px;
+        }
+        #cp_containerdiv-12 >p
+        {
+            font-size: 19px;
+            margin-top: 35px;
+            margin-bottom: -8px;
+            color: rgb(82, 82, 82);
+        }
+        #cp_quant-box
+        {
+            display: flex;
+            width: 30%;
+        }
+        #cp_quantity-1
+        {
+            width: 45%;
+            padding: 10px;
+        }
+        #cp_piece-1
+        {
+            border: 1px solid;
+            border-left: none;
+            width: 50%;
+            padding: 8px;
+        }
+        #cp_brand-1
+        {
+            padding: 10px;
+            width: 70%;
+            border-radius: 5px;
+            border: 1px solid grey;
+        }
+       
+        #cp_select
+        {
+            border: none;
+            padding: 10px;
+            width: 30%;
+            font-size: large;
+            border:1px solid rgb(94, 94, 255);
+            border-radius: 5px;
+            color: grey;
+            background-color:white;
+        }
+        #cp_next-1
+        {
+            padding: 10px;
+            width: 230px;
+            border-radius: 5px;
+            border: 1px solid rgb(12, 188, 171);
+            font-size: larger;
+            color: white;
+            background-color: rgb(12, 188, 171);
+        }
+        #cp_next-2
+        {
+            padding: 10px;
+            width: 230px;
+            border-radius: 5px;
+            border: 1px solid rgb(12, 188, 171);
+            font-size: larger;
+            color: white;
+            background-color: rgb(12, 188, 171);
+        }
+        #cp_next-1:hover
+        {
+            background-color: rgb(11, 114, 104);
+        }
+        #cp_contact-1
+        {
+            margin-top: 180px !important;
+        }
+        .cppc
+        {
+            margin-top: 8px !important;
+        }
+        #cp_submitted-1
+        {
+            width: 90%;
+            margin: auto;font-size: large;
+            color: rgb(65, 65, 65);
+            text-align: center;
+            padding-bottom: 80px;
+            display: none;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+        }
+        #cp_submitted-11
+        {
+            display: flex;
+            /* border: 1px solid; */
+            box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+            
+        }
+        #cp_submitted-11 >div{
+            width: 25%;
+            margin: auto;
+            font-size: large;
+            text-align: center;
+        }
+        .cp_span
+        {
+            font-weight: bold;
+            color:black;
+            font-size: large;
+        }
+       
+        #cp_thank
+        {
+            margin-top: 50px;
+        }
+        #cp_sim_prod
+        {
+            width: 65%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+            background-color: rgb(235, 234, 234);
+        }
+        #cp_sim_prod>div
+        {
+            text-align: left;
+            background-color: white;
+            width: 150px;
+            margin: auto;
+            padding-bottom:10px ;
+            border-radius: 10px;
+            box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+        }
+        #cp_sim_prod>div:hover
+        {
+            cursor: pointer;
+            padding: 1rem;
+        }
+        #cp_sim_prod>div>*
+        {
+            margin-left: 5px;
+            font-size: 13px;
+        }
+        #cp_sim_prod>div>img
+        {
+            width: 130px;
+            height: 130px;
+        }
+        .cp_buy-1
+        {
+            width: 90%;
+            padding: 5px;
+            background-color:#00a69a;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-size: medium !important; 
+        }
+        .cp_bluep
+        {
+            color: rgb(44, 44, 119);
+            font-size: medium !important;
+            margin-bottom: -5px;
+            margin-top: -0px;
+        }
+        .cp_blackp
+        {
+            color: black !important;
+        }
+        #cp_down
+        {
+            margin-top:30px !important;
+        }
+        #cp_green_button
+        {
+            background-color:#00a69a;
+            border: 1px solid #00a69a;
+            border-radius: 3px;
+            padding: 10px;
+            font-size: large;
+            color: white;
+        }
+        #cp_grey-button
+        {
+            padding: 10px;
+            background-color: rgb(235, 234, 234);
+            border: 1px solid rgb(235, 234, 234);
+            color: black;
+            font-weight: bold;
+            font-size: large;
+            border-radius: 5px;
+        }
+        #cp_mart-button
+        {
+            padding: 10px;
+            border-top: none !important;
+            border: 1px solid grey;
+            color: red;
+            font-weight: bolder;
+            padding-bottom: -10px;
+        }
+        #ind_img
+        {
+            width: 190px;
+            height: 40px;
+        }
+        #ind_name
+        {
+            color: blue;
+            font-weight: bolder;
+            font-size: 24px;
+            font-style: italic
+        }
+        #cp_pay
+        {
+            margin-top: -20px !important;
+        }
+        #cp_hide
+        {
+            height: 20px;
+        }

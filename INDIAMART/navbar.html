@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+
+    <script src="https://kit.fontawesome.com/4c42ee9e21.js" crossorigin="anonymous"></script>
+
+
+
+
+  
+
+    <style>
+        #navMainDiv {
+            margin: auto;
+            display: flex;
+            width: 100%;
+            height: 50px;
+            background-color: #2e318a;
+        }
+       .searchDiv {
+        padding: 10px 0px;
+        display: flex;
+        font-weight: 14px;
+        margin-left: 10px;
+       
+       }
+       #indiamart {
+        width: 180px;
+       }
+        #indiamart > img {
+            width: 100%;
+            height: 100%;
+        }
+        #searchDiv {
+            display: flex;
+        }
+      
+        #searchbox2 >input {
+            width: 250px;
+        }
+        #nav-btn  {
+            font-weight: 14px;
+            margin-left: 20px; 
+            padding: 10px 5px;
+            
+        }
+        #nav-btn > button {
+            height: 30px;
+            border-radius: 5px;
+            border: 1px solid white;
+            color: #2e318a;
+        }
+        #nav-icon {
+        display: flex;
+        padding-top: 15px;
+        margin-left: 40px;
+       
+        }
+       
+      
+        #nav-icon >div a{
+           text-decoration: none;
+           color: white;
+           font-size: 15px;
+           padding: 6px;
+           
+        }
+        #searchbox3 > button{
+            background-color:#00a699;
+            border: 1px solid #00a699;
+        }
+        
+        #searchbox1 > button, #searchbox2 > input, #searchbox3 > button {
+            height: 30px;
+        }
+
+        /* navbar2 */
+
+        #nav2 {
+            margin: auto;
+            width: 90%;
+            height: 80px;
+            display: flex;
+            font-style: arial;
+        }
+        #blue {
+            
+            width:80px;
+            height: 80px;
+        }
+        #blue > img {
+            height: 80px;
+            width: 80px;
+        }
+        #navUp {
+            /* border: 1px solid green; */
+            height: 42px;
+            margin-left: 10px;
+        }
+        #navUp > h2 {
+            margin-top: 10px;
+        }
+        #navDown {
+            display: flex;
+            height: 40px;
+            margin-left: 10px;
+            width: 100%;
+            font-size: 14px;
+        }
+        #navDown > div > i{
+            color: green;
+        }
+        /* #navDown > div > i:first-child {
+            color: grey;
+        }*/
+        #down1, #down2, #down3, #down4 { 
+            margin-top: 6px;
+          
+        }
+        #down1, #down2, #down3 {
+            margin-right: 5px;
+            /* border-right: 0.5px dotted grey; */
+        }
+        #nav2-btn {
+            margin-left: 200px;
+           
+
+        }
+        #nav2-btn >button >i {
+            color: #00a699;
+            margin-right: 2px;
+            font-size: 15px;
+        }
+        #nav2-btn > button {
+           border: 1px solid #00a699;
+            height: 25px;
+            background-color: white;
+            border-radius: 5px;
+          
+        }
+        #star1> i {
+            color: orange;
+        }
+        #star1> i:last-child {
+            color: rgb(211, 207, 207);
+        }
+
+
+        /* navbar3 */
+
+#nav3 {
+    width: 90%;
+    display: flex;
+    margin: auto;
+}        
+
+.navbar3 {
+  
+   overflow: hidden;
+   background-color:#eaeaf4;
+   width: 80%;
+
+ }
+
+.navbar3 a {
+  float: left;
+  font-size: 14px;
+  color: black;
+  text-align: center;
+  /* padding: 10px 10px; */
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar3 a:hover, .dropdown:hover .dropbtn {
+  background-color: #2e318a;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+ 
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+#nav3-btn {
+    margin: auto;
+    width:20%;
+    margin-left: 20px;
+}
+#nav3-btn > button {
+    width: 212px;
+    height: 38px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #00a699;
+    border: 1px solid #00a699;
+    color: white;
+}
+#nav3-btn > button > i{
+    margin-right: 10px;
+}
+.dropdown-content > div {
+    margin: auto;
+    padding: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    line-height: 5px;
+    grid-template-rows: auto;
+    gap: 30px;
+    font-family: Arial;
+    font-size: 14px;
+}
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <div id="navMainDiv">
+            <div id="indiamart"><img src="./images/indiamart.png" alt=""></div>
+
+            <div class="searchDiv">
+                <div id="searchbox1"><button> India <i class="fas fa-caret-down"></i></button></div>
+                <div id="searchbox2"> <input type="search" id="searchbar" placeholder="Enter Product"></div>
+                <div id="searchbox3"><button ><i class="fa-solid fa-magnifying-glass"></i>Search</button></div>
+            </div>
+
+            <div id="nav-btn"> <button>Get Best Price</button></div>
+
+            <div id="nav-icon">
+                <div><a href="#"><i class="fa-solid fa-cart-arrow-down img"></i>Shopping</a></div>
+                <div><a href="#"><i class="fa-solid fa-shield-halved img"></i>Covid Supplies</a></div>
+                <div><a href="#"><i class="fa-solid fa-shop img"></i>Sell</a></div>
+                <div> <a href="#"><i class="fa-solid fa-circle-question img"></i>Help</a></div>
+                <div><a href="#"><i class="fa-solid fa-comment-dots img"></i>Messages</a></div>
+                <div><a href="#"><i class="fa-solid fa-user-large"></i>Sign In</a></div>
+
+            </div>
+        </div>
+    </nav>
+
+
+        <div id="nav2">
+          <div id="blue"><img src="./img/blueh.jpg"></div>
+
+            <div id="nav2-part2">
+                <div id="navUp"><h2>Blue Heaven Cosmetics (P) Ltd</h2></div>
+                <div id="navDown">
+                    <div id="down1"><i class="fa-solid fa-location-dot"></i>Kirti Nagar, New Delhi, Delhi</div>
+                    <div id="down2"><i class="fa-solid fa-check"></i> GST 07AACCB1155C1ZB</div>
+                    <div id="down3"><i class="fa-solid fa-check"></i>Verified Supplier</div>
+
+                    <div id="down4"><i class="fa-solid fa-thumbs-up"></i>4.2/5 <span id="star1" class="down ds">
+                        <i class="fa-solid fa-star star"></i>
+                        <i class="fa-solid fa-star star "></i>
+                        <i class="fa-solid fa-star star"></i>
+                        <i class="fa-solid fa-star star"></i>
+                        <i class="fa-solid fa-star star grey"></i></span>
+                    </div>
+
+                     <div id="nav2-btn"><button><i class="fa-solid fa-phone"></i>Call 08048361220 Ext 167</button></div>
+                </div>
+            </div>
+        </div>
+
+     <!-- navbar3 -->
+     <div id="nav3">
+        <div class="navbar3">
+            <div class="dropdown">
+            <button class="dropbtn"><a href="index.html">Home</a> </button>
+            <div class="dropdown-content">
+              
+            </div>
+          </div>
+        
+           <div class="dropdown">
+            <button class="dropbtn"><a href="products.html">Product & Services</a> </button>
+            <div class="dropdown-content">
+                <div>
+                    <div>
+                    <h4> Make UP</h4>
+                    <p> Foundation</p>
+                    <p> Compact</p>
+                    <p> Pan cake Foundation</p>
+                    <p> Pan Stick Foundatation</p>
+                   </div>
+                   <div>
+                    <h4>Lipstick</h4>
+                    <p>Baked Brick Lipstick</p>
+                    <p>erise Pink Lipstick</p>
+                    <p>Coral Red Lipstick</p>
+                    <p>Desert Rose Lipstick</p>
+                   </div>
+                   <div>
+                    <h4>Lip Product</h4>
+                    <p>Lip Gloss</p>
+                    <p>Lip Stick</p>
+                    <p>Lip Liner</p>
+                    
+                   </div>
+                   <div>
+                    <h4>Scrubs</h4>
+                    <p>Fairness Scrub</p>
+                    <p>Mix Fruit Scrub</p>
+                    <p>Facial Scrub</p>
+                   
+                   </div>
+                   <div>
+                    <h4> Lip Care</h4>
+                    <p> Lip lip-balm</p>
+                    <p> Lip Guard</p>
+                    
+                   </div>
+                   <div>
+                    <h4>Eye Products</h4>
+                    <p>Mascara</p>
+                    <p>Eye Shadow</p>
+                    <p>Eye Liner</p>
+                   </div>
+
+                   <div>
+                    <h4>Bleach Cream</h4>
+                    <p>Fruit Bleach</p>
+                    <p>Gold Bleach</p>
+                    <p>Personal Bleach</p>
+                   </div>
+                   
+                </div>
+              
+            </div>
+          </div>
+          
+          
+          <div class="dropdown">
+            <button class="dropbtn"><a href="about.html">About Us</a></button>
+            <div class="dropdown-content">
+              <a href="#">Custom Profile</a>
+              <a href="#">Testimonial</a>
+              <a href="#">Download Brouchure</a>
+            </div>
+          </div> 
+          <div class="dropdown">
+            <button class="dropbtn"><a href="contact.html">Contact Us</a> </button>
+            <div class="dropdown-content">
+             
+            </div>
+          </div>
+        </div>
+      
+        <div id="nav3-btn"><button><i class="fa-solid fa-envelope"></i>Send Email</button></div>
+    </div>
+
+    
+</body>
+</html>
